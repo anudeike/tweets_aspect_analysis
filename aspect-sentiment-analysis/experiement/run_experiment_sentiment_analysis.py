@@ -21,10 +21,11 @@ def calculate_sentiment(row):
         'vaccine_neutral': vaccine.scores[0],
         'vaccine_negative': vaccine.scores[1],
         'vaccine_positive': vaccine.scores[2],
-        'vaccine_negative_neutral_ratio': vaccine.scores[1]/vaccine.scores[0],
-        'vaccine_positive_neutral_ratio': vaccine.scores[2] / vaccine.scores[0],
-        'vaccine_negative_positive_ratio': vaccine.scores[1]/vaccine.scores[2],
-        'vaccine_positive_negative_ratio': vaccine.scores[2] / vaccine.scores[1],
+        # skip regular polarity and go to total
+        'vaccine_negative_neutral_ratio': vaccine.scores[1]/vaccine.scores[0], # negative polarity
+        'vaccine_positive_neutral_ratio': vaccine.scores[2] / vaccine.scores[0], # positive polarity
+        'vaccine_negative_positive_ratio': vaccine.scores[1]/vaccine.scores[2], # total negative polarity
+        'vaccine_positive_negative_ratio': vaccine.scores[2] / vaccine.scores[1], # total postiive polarity
 
         'vaccines_neutral': vaccines.scores[0],
         'vaccines_negative': vaccines.scores[1],

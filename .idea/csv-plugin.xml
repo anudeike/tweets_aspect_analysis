@@ -24,6 +24,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\aspect-sentiment-analysis\experiement\data_similarity_analysis.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\aspect-sentiment-analysis\experiement\run_experiment_sentiment_analysis.py">
           <value>
             <Attribute>
