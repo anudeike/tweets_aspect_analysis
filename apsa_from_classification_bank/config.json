@@ -1,0 +1,9 @@
+{
+  "tweet_data_path": "example_twitter_data_file.csv",
+  "model_file_path": "XGB_Default_Classifier.dat",
+  "database_file_path": "example.db",
+  "classification_bank_path": "classification_bank.csv",
+  "count": 0,
+  "start_index": 0,
+  "human_only": true
+}
