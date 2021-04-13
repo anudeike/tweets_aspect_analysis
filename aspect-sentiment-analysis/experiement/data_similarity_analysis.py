@@ -53,7 +53,7 @@ def show_correlations(data_x, data_y):
 def main():
 
     # file paths
-    path_to_control = "control_data/control_dataset.csv"
+    path_to_control = "vaccines_only/vaccines_only_dataset.csv"
 
     control_df = pd.read_csv(path_to_control)
 
