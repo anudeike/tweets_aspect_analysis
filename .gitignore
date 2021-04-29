@@ -13,3 +13,4 @@ pip-selfcheck.json
 .env
 .aspect-sentiment-analysis/experiement
 .aspa_from_classification_bank
+.code_examples

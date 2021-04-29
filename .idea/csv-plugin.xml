@@ -150,6 +150,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\code_examples\example_scripts.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\code_examples\example_summary_stats.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\code_examples\example_twitter_data_file.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\example_twitter_data_file.csv">
           <value>
             <Attribute>

@@ -122,8 +122,11 @@ class AccountClassifierAnalyzer:
 
             processed_tweet_content = row["proccessed_tweet"]
 
+
+            mod_sentnece = " ".join(["vaccines" if "vaccin" in word else word for word in processed_tweet_content.split()])
+
             # get the sentiment
-            sent = self.get_sentiment(processed_tweet_content)
+            sent = self.get_sentiment(mod_sentnece)
             print(f'Sentiment Analysis Result: {sent}')
 
             # vaccine scores
@@ -158,7 +161,7 @@ class AccountClassifierAnalyzer:
             row_dict = row.to_dict()
             row = pd.DataFrame(row_dict, index=[row_dict['No.']])
 
-            row.to_sql(name="tweet_info_4", con=self.database_connection, if_exists="append", index=False)
+            row.to_sql(name="tweet_sentiment_information", con=self.database_connection, if_exists="append", index=False)
             self.database_connection.commit()
 
             # increments

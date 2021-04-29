@@ -120,7 +120,7 @@ def run_analyzer(preprocessed_tweet_data_file_path, model_path, database_path, c
 if __name__ == '__main__':
 
     # import a json config file
-    config_file = "config.json"
+    config_file = sys.argv[1]
     f = open(config_file)
 
     # turn into a dictionary and get all the necessary values
