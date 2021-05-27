@@ -52,6 +52,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\apsa_from_classification_bank\test.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\aspect-sentiment-analysis\2020-07_2020-09_preproccessed.csv">
           <value>
             <Attribute>
